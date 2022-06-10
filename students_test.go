@@ -20,7 +20,7 @@ func init() {
 
 // TestPeopleLen tests the Len method of the People type.
 // Len method should return the length of the slice.
-func TestPeopleLen(t *testing.T) {
+func TestPeople_Len(t *testing.T) {
 	tests := []struct {
 		name string
 		p    People
